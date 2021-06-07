@@ -51,3 +51,35 @@ collections:
         widget: string
         default: true
 
+  - category: Content
+    folder: content/testimonials
+    label: Testimonial
+    name: testimonial
+    fields:
+      - label: Title
+        name: title
+        widget: string
+
+      - label: Name
+        name: name
+        widget: string
+
+      - label: Location
+        name: location
+        widget: string
+
+      - label: Occupation
+        name: occupation
+        widget: string
+
+      - label: Image
+        name: image
+        widget: file
+
+      - label: Lead Quote
+        name: lead_quote
+        widget: string
+
+      - label: Body
+        name: body
+        widget: markdown
