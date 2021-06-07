@@ -34,11 +34,11 @@ collections:
             widget: string
 
       - label: Image
-        name: image
+        name: image_object
         widget: object
         fields:
           - label: Image File
-            name: image_file
+            name: image
             widget: file
 
           - label: Image Alt
@@ -81,11 +81,11 @@ collections:
         widget: string
 
       - label: Image
-        name: image
+        name: image_object
         widget: object
         fields:
           - label: Image File
-            name: image_file
+            name: image
             widget: file
 
           - label: Image Alt
