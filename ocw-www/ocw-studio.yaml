@@ -50,3 +50,4 @@ collections:
         name: headless
         widget: string
         default: true
+
