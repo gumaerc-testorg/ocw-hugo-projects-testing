@@ -35,7 +35,15 @@ collections:
 
       - label: Image
         name: image
-        widget: file
+        widget: object
+        fields:
+          - label: Image File
+            name: image_file
+            widget: file
+
+          - label: Image Alt
+            name: image_alt
+            widget: string
 
   - category: Content
     folder: content/notifications
@@ -74,7 +82,15 @@ collections:
 
       - label: Image
         name: image
-        widget: file
+        widget: object
+        fields:
+          - label: Image File
+            name: image_file
+            widget: file
+
+          - label: Image Alt
+            name: image_alt
+            widget: string
 
       - label: Lead Quote
         name: lead_quote
