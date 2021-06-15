@@ -1,9 +1,9 @@
 ---
 collections:
-  - category: Content
+  - category:  Content
     folder: content/pages
     label: Page
-    name: page
+    name: pages
     fields:
       - label: Title
         name: title
@@ -15,7 +15,7 @@ collections:
   - category: Content
     folder: content/promos
     label: Promo
-    name: promo
+    name: promos
     fields:
       - label: Title
         name: title
@@ -48,7 +48,7 @@ collections:
   - category: Content
     folder: content/notifications
     label: Notification
-    name: notification
+    name: notifications
     fields:
       - label: Title
         name: title
@@ -56,13 +56,13 @@ collections:
 
       - label: Headless
         name: headless
-        widget: string
+        widget: hidden
         default: true
 
   - category: Content
     folder: content/testimonials
     label: Testimonial
-    name: testimonial
+    name: testimonials
     fields:
       - label: Title
         name: title
@@ -81,19 +81,11 @@ collections:
         widget: string
 
       - label: Image
-        name: image_object
-        widget: object
-        fields:
-          - label: Image File
-            name: image
-            widget: file
-
-          - label: Image Alt
-            name: image_alt
-            widget: string
+        name: image
+        widget: file
 
       - label: Lead Quote
-        name: lead_quote
+        name: leadquote
         widget: string
 
       - label: Body
