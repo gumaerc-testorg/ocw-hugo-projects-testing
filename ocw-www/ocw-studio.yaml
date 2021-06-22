@@ -108,6 +108,10 @@ collections:
         name: leadquote
         widget: string
 
+      - label: Test
+        name: test
+        widget: string
+
       - label: Body
         name: body
         widget: markdown
