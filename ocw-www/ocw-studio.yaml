@@ -152,4 +152,4 @@ collections:
             widget: string
           - label: Credit
             name: credit
-            test: texttwo
+            test: textthree
