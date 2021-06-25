@@ -150,6 +150,6 @@ collections:
           - label: Caption
             name: caption
             widget: string
-          - label: Credit test four
+          - label: Credit test five
             name: credit
             widget: text
