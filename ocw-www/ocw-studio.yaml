@@ -153,5 +153,4 @@ collections:
           - label: Credit
             name: credit
             widget: text
-            test: text
-            
+            test: textone
