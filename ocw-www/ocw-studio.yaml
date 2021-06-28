@@ -1,5 +1,5 @@
 ---
-base-url: ""
+base-url: "www"
 collections:
   - category: Content
     folder: content/pages
