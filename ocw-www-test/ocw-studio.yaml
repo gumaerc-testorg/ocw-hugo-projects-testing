@@ -1,5 +1,4 @@
 ---
-base-url: "www"
 collections:
   - category: Content
     folder: content/pages
@@ -151,6 +150,6 @@ collections:
           - label: Caption
             name: caption
             widget: string
-          - label: Credit test thirteen
+          - label: Credit test fourteen
             name: credit
             widget: text
