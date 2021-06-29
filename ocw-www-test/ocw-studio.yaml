@@ -151,6 +151,6 @@ collections:
           - label: Caption
             name: caption
             widget: string
-          - label: Credit test twelve
+          - label: Credit test thirteen
             name: credit
             widget: text
