@@ -1,5 +1,5 @@
 ---
-root-url-path: "/"
+root-url-path: ""
 collections:
   - category: Content
     folder: content/pages
