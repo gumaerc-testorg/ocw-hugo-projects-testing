@@ -53,6 +53,6 @@ collections:
           - label: Caption
             name: caption
             widget: string
-          - label: Credit
+          - label: Credit test
             name: credit
             widget: text
